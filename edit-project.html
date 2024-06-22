@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon1.svg">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="text.css">
+
+<style>
+    
+    .user {
+  position: absolute;
+  right: 100%;
+  top: 0%;
+}
+.required {
+  text-align: center;
+  }
+
+.unrequired {
+  text-align: center;
+}
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projecto - editing project</title>
+</head>
+<body style="background-color:#424549;">
+
+    <a href="index.html">
+        <button>home</button>
+      </a>
+
+    <div class="user">
+    </div>
+
+    <div class="required">
+
+    <p>project name</p>
+
+    <input type="text" id="name" name="projectname"><br><br>
+
+
+    <p>project slug</p>
+
+    <input type="text" id="slug" name="projectslug"><br><br>
+
+    <h3>platform support</h3>
+
+    <div class="checkbox">
+
+    <p>macOS</p>
+
+    <input type="checkbox" id="macsupport" name="macOS support"><br><br>
+
+    <p>windows</p>
+
+    <input type="checkbox" id="windowsupport" name="Windows support"><br><br>
+
+    <p>IOS</p>
+
+    <input type="checkbox" id="iossupport" name="IOS support"><br><br>
+
+    <h5>other</h5>
+
+    <p>discord activity</p>
+
+    <input type="checkbox" id="discordsupport" name="discord support"><br><br>
+    </div>
+
+    </div>
+    <div class="unrequired">
+
+        <p>thumbnail</p>
+
+        <input type="file" id="image" name="thumbnail"><br><br>
+
+        <p>genre</p>
+
+        <input type="text" id="genre" name="genre"><br><br>
+
+        <p>beta/alpha</p>
+
+        <input type="checkbox" id="beta" name="beta?"><br><br>
+
+        <h3>feedback & social media</h3>
+
+        <p>feedback email</p>
+
+        <input type="email" id="email" name="email"><br><br>
+
+        <p>discord server</p>
+
+        <input type="url" id="discord" name="discord server"><br><br>
+
+        <p>twitter page</p>
+
+        <input type="url" id="discord" name="discord server"><br><br>
+
+    </div>
+</body>
+</html>

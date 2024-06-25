@@ -7,4 +7,4 @@ don't make stupid changes
 
 # projects
 
-projects created with github are stored in the data folder along with admin users
+(outdated)projects created with github are stored in the data folder along with admin users

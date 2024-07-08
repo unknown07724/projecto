@@ -5,4 +5,4 @@ a website where people can create and upload things known as projects
 
 don't make stupid changes
 
-read contribuing.md for more information
+read contributing.md for more information

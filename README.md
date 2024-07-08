@@ -5,6 +5,4 @@ a website where people can create and upload things known as projects
 
 don't make stupid changes
 
-# projects
-
-(outdated)projects created with github are stored in the data folder along with admin users
+read contribuing.md for more information
